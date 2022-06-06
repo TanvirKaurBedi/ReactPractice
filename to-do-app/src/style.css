@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+
+
+}
+
+.parentDiv {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+
+}
+
+.childDiv {
+    position: absolute;
+    height: 50vh;
+    width: 50vw;
+    background-color: darkkhaki;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%
+}
+
+.main-row {
+    font-size: 4rem;
+    font-weight: 600;
+    color: black;
+    border: solid 2px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.textArea {
+    height: 35px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    width: 100%;
+}
+
+/* .btn {
+    width: 85px;
+    border: 1px solid;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+} */
+
+.todo-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+}
+
+.todo-row > div{
+    padding: 10px;
+}

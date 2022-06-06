@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+}
+
+.parentDiv {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(121, 39, 39);
+
+
+}
+
+.childDiv {
+    background-color: blanchedalmond;
+    position: absolute;
+    height: 50vh;
+    width: 50vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 3cm;
+}
+
+.button1,
+.button2 {
+    display: inline-table;
+    border: 5px solid green;
+    size: 2rem;
+    padding-inline: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    font-size: x-large;
+    margin-right: 10px;
+
+
+}
+
+p {
+    padding: 15px;
+    font-size: xx-large;
+}
